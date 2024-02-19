@@ -1,11 +1,15 @@
+package Pessoa;
+
 public class Diretor {
 
     private String nome;
     private String area;
+    private int idade;
 
-    public Diretor(String nome, String area) {
+    public Diretor(String nome, String area, int idade) {
         this.nome = nome;
         this.area = area;
+        this.idade = idade;
     }
 
     public String getNome() {
@@ -22,5 +26,13 @@ public class Diretor {
 
     public void setArea(String area) {
         this.area = area;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }
