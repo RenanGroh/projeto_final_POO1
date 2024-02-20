@@ -14,7 +14,7 @@ public class MenuCadastro {
     public MenuCadastro() {
         cadastroAtor = new CadastroAtor();
         cadastroFilme = new CadastroFilme();
-        //cadastroDiretor = new CadastroDiretor();
+        cadastroDiretor = new CadastroDiretor();
         scanner = new Scanner(System.in);
     }
 
@@ -27,17 +27,17 @@ public class MenuCadastro {
             System.out.println("4. Sair");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
                     CadastroAtor.cadastrarAtor(scanner);
                     break;
                 case 2:
-                    // chamar cadastro do diretor
+                    CadastroDiretor.cadastrarDiretor(scanner);
                     break;
                 case 3:
-                    // chamar cadastro do filme
+                    cadastroFilme.cadastrarFilme(scanner);
                     break;
                 case 4:
                     System.out.println("Saindo no menu.");

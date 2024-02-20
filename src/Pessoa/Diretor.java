@@ -6,6 +6,10 @@ public class Diretor {
     private String area;
     private int idade;
 
+    public Diretor(){
+        // construtor sem parametros
+    }
+
     public Diretor(String nome, String area, int idade) {
         this.nome = nome;
         this.area = area;

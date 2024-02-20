@@ -42,10 +42,10 @@ public class CadastroAtor {
         }
     }
 
+    // metodos
     private static boolean verificarExistencia(Ator ator) {
         return atores.containsKey(ator.getIdentidade());
     }
-
 
 
 }

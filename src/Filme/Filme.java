@@ -10,6 +10,10 @@ public class Filme {
     private String duracao;
     private String ano;
 
+    public Filme(){
+        // construtor sem parametros
+    }
+
     public Filme(String titulo, String sinopse, String origem, String generos, Double avaliacao, String duracao, String ano) {
         this.titulo = titulo;
         this.sinopse = sinopse;
