@@ -1,5 +1,5 @@
 
-import Menu.Cadastro.MenuCadastro;
+import menu.cadastro.MenuCadastro;
 
 public class Main {
     public static void main(String[] args) {

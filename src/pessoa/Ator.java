@@ -1,4 +1,4 @@
-package Pessoa;
+package pessoa;
 
 public class Ator {
 
@@ -40,5 +40,9 @@ public class Ator {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    // methodos
+
+
 }
 

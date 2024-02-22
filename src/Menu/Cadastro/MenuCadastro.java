@@ -1,6 +1,6 @@
-package Menu.Cadastro;
+package menu.cadastro;
 
-import Menu.Cadastro.*;
+import menu.cadastro.*;
 
 import java.util.Scanner;
 
@@ -37,7 +37,7 @@ public class MenuCadastro {
                     CadastroDiretor.cadastrarDiretor(scanner);
                     break;
                 case 3:
-                    cadastroFilme.cadastrarFilme(scanner);
+                    CadastroFilme.cadastrarFilme(scanner);
                     break;
                 case 4:
                     System.out.println("Saindo no menu.");

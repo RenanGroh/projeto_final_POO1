@@ -1,7 +1,6 @@
-package Menu.Cadastro;
+package menu.cadastro;
 
-import Filme.Filme;
-import Pessoa.Diretor;
+import filme.Filme;
 
 import java.util.HashMap;
 import java.util.Map;
