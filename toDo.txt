@@ -1,0 +1,43 @@
+Criar DiretorController - Gabi
+Metodo p/ calcular idade - Gabi
+Criar AtorController - Ren
+Modificar FilmeController - Ren
+Validador de CPF - Renan
+Menu Cadastro - Renan
+Menu Busca - Lucas
+Gerador de CPF - Lucas
+
+
+String titulo;
+String sinopse;
+enum genero;
+enum classificacaoIndicativa
+LocalDate dataDeLancamento;
+enum duracao;
+Diretor <List>diretor;
+Ator <List> ator;
+enum avaliacao;
+
+Diretor de Cinema;
+Diretor de Fotografia;
+Diretor de Arte;
+Diretor de Som;
+Diretor de Elenco;
+
+enum Duracao {
+    CURTA,
+    MEDIA,
+    LONGA
+}
+
+enum ClassificacaoIndicativa {
+
+}
+
+enum Genero {
+
+}
+
+enum AreaDiretor {
+
+}
