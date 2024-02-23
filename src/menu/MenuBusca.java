@@ -4,6 +4,7 @@ import controller.AtorController;
 import controller.DiretorController;
 import controller.FilmeController;
 import database.database;
+import models.Filme;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;

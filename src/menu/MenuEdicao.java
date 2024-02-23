@@ -5,6 +5,9 @@ import database.database;
 import controller.AtorController;
 import controller.DiretorController;
 import controller.FilmeController;
+import models.Ator;
+import models.Diretor;
+import models.Filme;
 import util.Enums;
 
 import java.time.LocalDate;
