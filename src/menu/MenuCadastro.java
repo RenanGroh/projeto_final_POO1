@@ -1,7 +1,15 @@
 package menu;
 
+import controller.AtorController;
+import controller.DiretorController;
+import controller.FilmeController;
+import util.Enums;
+
 import java.time.LocalDate;
 import java.util.Scanner;
+
+import static controller.DiretorController.exibirAreasDiretor;
+
 
 public class MenuCadastro {
 
