@@ -2,6 +2,11 @@ package menu;
 
 import database.database;
 
+import controller.AtorController;
+import controller.DiretorController;
+import controller.FilmeController;
+import util.Enums;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
