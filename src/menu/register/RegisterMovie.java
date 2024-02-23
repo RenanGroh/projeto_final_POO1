@@ -44,7 +44,18 @@ public class RegisterMovie {
             double avaliacao = cadastrarAvaliacao(scanner);
 
 
-            Filme filme = new Filme(titulo, sinopse, generos, classificacao, dataLancamento, duracao, diretoresNoFilme, atoresNoFilme, avaliacao);
+            Filme filme = new Filme(
+                    titulo,
+                    sinopse,
+                    generos,
+                    classificacao,
+                    dataLancamento,
+                    duracao,
+                    diretoresNoFilme,
+                    atoresNoFilme,
+                    avaliacao
+            );
+
             filmes.add(filme);
 
             System.out.println("Filme cadastrado com sucesso!");
@@ -154,7 +165,7 @@ public class RegisterMovie {
 
             if ("novo".equalsIgnoreCase(nomeDiretor)) {
                 registerDirector.catalogDirector(scanner);
-                continue; // Volta para o início do loop para selecionar o diretor recém-cadastrado
+                continue; // Volta para o início do loop para selecionar o novo diretor cadastrado
             }
 
             Diretor diretor = registerDirector.buscarDiretor(nomeDiretor);
@@ -192,7 +203,7 @@ public class RegisterMovie {
                 System.out.println("Deseja cadastrá-lo agora? (sim/não)");
                 String resposta = scanner.nextLine();
                 if ("sim".equalsIgnoreCase(resposta)) {
-                    registerActor.catalogActor(scanner); // Supõe-se que este método faz o cadastro
+                    registerActor.catalogActor(scanner); // registrar novo ator
                     ator = registerActor.buscarAtor(nomeAtor); // Buscar novamente após o cadastro
                     if (ator != null) {
                         atoresSelecionados.add(ator);
