@@ -11,9 +11,9 @@ Gerador de CPF - Lucas
 String titulo;
 String sinopse;
 enum genero;
-enum classificacaoIndicativa
+enum enumClassificacaoIndicativa
 LocalDate dataDeLancamento;
-enum duracao;
+enum enumDuracao;
 Diretor <List>diretor;
 Ator <List> ator;
 enum avaliacao;
@@ -30,7 +30,7 @@ enum Duracao {
     LONGA
 }
 
-enum ClassificacaoIndicativa {
+enum util.EnumClassificacaoIndicativa {
 
 }
 
